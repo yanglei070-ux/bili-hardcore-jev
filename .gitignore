@@ -1,0 +1,21 @@
+# 敏感信息，绝对不能上传
+jev.txt
+*.key
+
+# 脚本运行时产生的东西
+auth.json
+run.log
+*.log
+captcha.jpg
+login_qr.png
+selftest_qr.png
+
+# Python
+__pycache__/
+*.pyc
+
+# 本机临时工作区（跟项目无关，不上传）
+research/
+.playwright-mcp/
+.tmp-img-*/
+*.reg
